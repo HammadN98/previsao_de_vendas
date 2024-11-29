@@ -9,9 +9,11 @@ Usando aprendizado de máquina, o modelo escolhido (XGBoost) atingiu uma explica
 A previsão pode ser usada por gerentes para otimizar estoques e escalas de funcionários, garantindo eficiência operacional.
 Dados como feriados, promoções e concorrência foram cuidadosamente analisados e tratados para maior precisão nas previsões.
 
-| Modelo             | Melhor RMSE | RMSE Médio | Desvio Padrão (RMSE) | Tempo de Execução (s) |
-|--------------------|-------------|------------|-----------------------|------------------------|
-| XGBoost           | **959.11**  | **926.20** | **6.32**             | **30.83**             |
-| Random Forest      | 1286.79     | 1254.14    | 21.29                | 3337.05               |
+| **Modelo**            | **RMSE** | **R²** | **Tempo (s)** |
+|------------------------|----------|--------|---------------|
+| XGBoost (Base)         | 1122.98  | 0.91   | 8.77          |
+| XGBoost (Otimizado)    | 884.70   | 0.95   | 30.83         |
+
+
 
 
