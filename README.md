@@ -13,6 +13,10 @@ Dados como feriados, promoções e concorrência foram cuidadosamente analisados
 |------------------------|----------|--------|---------------|
 | XGBoost (Base)         | 1122.98  | 0.91   | 8.77          |
 | XGBoost (Otimizado)    | 884.70   | 0.95   | 30.83         |
+**Nota:**  
+- **RMSE (Root Mean Squared Error)**: Mede o erro médio entre os valores previstos e reais (quanto menor, melhor).  
+- **R² (Coeficiente de Determinação)**: Indica a porcentagem de variabilidade explicada pelo modelo (quanto mais próximo de 1, melhor).  
+
 
 
 
